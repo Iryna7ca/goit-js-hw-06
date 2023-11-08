@@ -7,7 +7,8 @@ function onFormSubmit(event) {
     if (form.email.value === `` || form.password.value === ``) {
         alert("Всі поля мають бути заповнені!");
     } else {
-        console.dir(`Email: ${form.email.value}, Password: ${form.password.value}`);
+        console.log(`Email: ${form.email.value}`);
+        console.log(`Password: ${form.password.value}`);
         form.reset();
     }
     
